@@ -1,0 +1,44 @@
+(*********************************************************************************
+ * Copyright: B&R Industrial Automation GmbH 
+ * Author:    kasliwals 
+ * Created:   December 11, 2023/10:45 AM 
+ *********************************************************************************)
+(*Function Blocks*)
+VAR
+	iFb_MpAxisSlave : MpAxisBasic; (*MpAxis Function Block*)
+	iFb_RegCapture : MC_BR_RegMarkCapture002; (*Reg Capture FB*)
+	iFb_CamSeq : MpAxisCamSequencer; (*Cam Seq FB*)
+	iFb_MpAxisBasic : MpAxisBasic; (*MpAxis Function Block*)
+END_VAR
+(*Axis Structures*)
+VAR
+	iAx_CamSeq : AxisCamSeqMain_Typ; (*Cam Seq Structure*)
+	iCutterCtrl : AxisCtrl_typ; (*Cutter Ctrl Structure*)
+END_VAR
+(*CONSTANTS*)
+VAR CONSTANT
+	LOWER_CUT_POS : LREAL := 2653; (*Lower Limit of Cutting zone*)
+	HOMING_OFFSET : LREAL := 1033; (*Homing Position*)
+	UPPER_CUT_POS : LREAL := 3013; (*upper Limit of cutting zone*)
+	START_VEL : REAL := 150; (*Start Velecity*)
+	HOMING_VEL : REAL := 300; (*Homing Velocity*)
+END_VAR
+VAR
+	ZERO : LREAL := 0; (*Zero number*)
+	LIMIT_END : LREAL := 3599; (*Limit ENd*)
+END_VAR
+VAR CONSTANT
+	LOWER_BUFER : LREAL := 2643; (*Lower Limit buffer*)
+	UPPER_BUFFER : LREAL := 3014; (*Upper Limit buffer*)
+END_VAR
+(*Process Variables And Structures*)
+VAR
+	iVa_RegCaptureAdvPara : MC_BR_ADV_RM2_REF; (*Adv para for reg capture*)
+	iSlaveStateDual : AxisState_enum; (*Dual Cutter State*)
+	iSlaveStateSingle : AxisState_enum; (*Single Cutter State*)
+	iVa_RegCaptureConfig : MC_BR_CFG_RM2_REF; (*Config Para for reg caoture*)
+	iJogState : INT; (*Jog State*)
+END_VAR
+VAR CONSTANT
+	HOMING_OFFSET_DUAL : LREAL := 133; (*Homing Offset for dual Cutter*)
+END_VAR

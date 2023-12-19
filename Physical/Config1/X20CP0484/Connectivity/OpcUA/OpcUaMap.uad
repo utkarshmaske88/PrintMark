@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="G4.93">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="gAx_Master">
+          <Variable Name="Out">
+            <Variable Name="Error" />
+            <Variable Name="PowerOn" />
+            <Variable Name="IsHomed" />
+            <Variable Name="MoveActive" />
+            <Variable Name="Info">
+              <Variable Name="DigitalInputsStatus">
+                <Variable Name="Trigger2" />
+              </Variable>
+              <Variable Name="CyclicRead">
+                <Variable Name="Torque">
+                  <Variable Name="Value" />
+                </Variable>
+              </Variable>
+            </Variable>
+          </Variable>
+          <Variable Name="In">
+            <Variable Name="Enable" />
+            <Variable Name="Home" />
+            <Variable Name="ErrorReset" />
+          </Variable>
+        </Variable>
+        <Variable Name="gAx_Slave">
+          <Variable Name="Out">
+            <Variable Name="Error" />
+            <Variable Name="PowerOn" />
+            <Variable Name="IsHomed" />
+            <Variable Name="Position" />
+            <Variable Name="Info">
+              <Variable Name="CyclicRead">
+                <Variable Name="Torque">
+                  <Variable Name="Value" />
+                </Variable>
+              </Variable>
+            </Variable>
+          </Variable>
+          <Variable Name="In">
+            <Variable Name="ErrorReset" />
+            <Variable Name="Home" />
+            <Variable Name="Enable" />
+          </Variable>
+        </Variable>
+        <Variable Name="gMI_ModeConfirm" />
+      </GlobalVariables>
+      <Task Name="AutoCtrl">
+        <Variable Name="pRegCapture">
+          <Variable Name="ValidRMs" />
+          <Variable Name="ProductsWithoutRM" />
+          <Variable Name="AdditionalInfo">
+            <Variable Name="ActLength" />
+            <Variable Name="AverageProductLength" />
+          </Variable>
+        </Variable>
+        <Variable Name="pConvCtrl">
+          <Variable Name="Cmd">
+            <Variable Name="PrintMark" />
+            <Variable Name="JogFwd" />
+            <Variable Name="JogBack" />
+          </Variable>
+        </Variable>
+        <Variable Name="pAx_CamSeq">
+          <Variable Name="Out">
+            <Variable Name="InSync" />
+          </Variable>
+        </Variable>
+        <Variable Name="iMI_AvgBagLen" />
+        <Variable Name="iMI_LastBagLen" />
+        <Variable Name="iAutoCtrl">
+          <Variable Name="Cmd">
+            <Variable Name="Start" />
+            <Variable Name="Stop" />
+            <Variable Name="AutoMode" />
+            <Variable Name="ChangeMode" />
+            <Variable Name="DisableCutter" />
+            <Variable Name="SingleCutter" />
+            <Variable Name="Reset" />
+          </Variable>
+          <Variable Name="ManualCmd">
+            <Variable Name="ConvPowerON" />
+            <Variable Name="CutterPowerON" />
+          </Variable>
+        </Variable>
+        <Variable Name="iMI_CurrentMode" />
+        <Variable Name="AutoCtrlState" />
+        <Variable Name="pCutterCtrl">
+          <Variable Name="Cmd">
+            <Variable Name="JogFwd" />
+            <Variable Name="JogBack" />
+          </Variable>
+        </Variable>
+        <Variable Name="iMI_MachineStatus" />
+        <Variable Name="iMI_CutterSelected" />
+      </Task>
+      <Task Name="Visu">
+        <Variable Name="iMI_ConActSpeed" />
+        <Variable Name="iMI_ConSetSpeed" />
+        <Variable Name="iMI_ConSetJogAcc" />
+        <Variable Name="iMI_ConSetJogDeacc" />
+        <Variable Name="iMI_ConSetJogVel" />
+        <Variable Name="iMI_CutActSpeed" />
+        <Variable Name="iMI_CutSetJogAcc" />
+        <Variable Name="iMI_CutSetJogDeacc" />
+        <Variable Name="iMI_CutSetJogVel" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

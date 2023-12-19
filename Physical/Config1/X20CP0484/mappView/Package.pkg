@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="mappViewControl" PackageType="mappViewControl" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="mapview Config">Config.mappviewcfg</Object>
+    <Object Type="File" Description="Mapview vis file">Visualizat.vis</Object>
+    <Object Type="File" Description="Alarm page event Binding">AlarmContent.eventbinding</Object>
+    <Object Type="File" Description="User Page event binding">UserContent.eventbinding</Object>
+    <Object Type="File" Description="alarm page binding">AlarmContent.binding</Object>
+    <Object Type="File" Description="home page binding">HomeContent.binding</Object>
+    <Object Type="File" Description="header page Binding">HeaderContent.binding</Object>
+    <Object Type="File" Description="popup content binding">PopUpContent.binding</Object>
+    <Object Type="File" Description="pop Content event binding">PopUpContent.eventbinding</Object>
+    <Object Type="File" Description="Home content event binding">HomeContent.eventbinding</Object>
+    <Object Type="File" Description="Manual Content Event Binding">ManualContent.binding</Object>
+    <Object Type="File" Description="Manual COntent binding">ManualContent.eventbinding</Object>
+    <Object Type="File" Description="footer content binding">FooterContent.binding</Object>
+    <Object Type="File" Description="cutter dialog binding">CutterDialog.binding</Object>
+    <Object Type="File" Description="cutter dialog event binding">CutterDialog.eventbinding</Object>
+    <Object Type="File">ErrorHandCOntent.binding</Object>
+    <Object Type="File">SettingContent.binding</Object>
+  </Objects>
+</Package>

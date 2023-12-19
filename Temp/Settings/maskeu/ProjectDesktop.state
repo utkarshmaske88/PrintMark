@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Config1"/><ConfigurationFiles xmlns="" ConfigurationName="Config1" ActiveConfigurationFile="\Logical\Source\AxisConf\CutterCtrl\CamAuto.st"><ConfigurationFile Placement="\Logical\Source\AxisConf\CutterCtrl\CamAuto.st,Source.AxisConf.CutterCtrl,2,44,0,1,-1,-1,-1,-1,2,30,904,876"/><ConfigurationFile Placement="\Logical\Source\AxisConf\CutterCtrl\Variables.var,Source.AxisConf.CutterCtrl,1,44,0,1,-1,-1,-1,-1,2,30,904,876"/><ConfigurationFile Placement="\Logical\Source\AxisConf\AxisTyp.typ,Source.AxisConf,1,44,0,1,-1,-1,-1,-1,2,30,904,876"/></ConfigurationFiles></Project>

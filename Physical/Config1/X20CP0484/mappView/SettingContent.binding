@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="SettingContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:iMI_CutSetJogDeacc" attribute="value" />
+<Target xsi:type="brease" contentRefId="SettingContent" widgetRefId="inCutDeacc" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:iMI_CutSetJogAcc" attribute="value" />
+<Target xsi:type="brease" contentRefId="SettingContent" widgetRefId="inCutAcc" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:iMI_CutSetJogVel" attribute="value" />
+<Target xsi:type="brease" contentRefId="SettingContent" widgetRefId="inCutSetSpeed" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:iMI_ConSetJogVel" attribute="value" />
+<Target xsi:type="brease" contentRefId="SettingContent" widgetRefId="inConvSpeed" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:iMI_ConSetJogAcc" attribute="value" />
+<Target xsi:type="brease" contentRefId="SettingContent" widgetRefId="inConvAcc" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Visu:iMI_ConSetJogDeacc" attribute="value" />
+<Target xsi:type="brease" contentRefId="SettingContent" widgetRefId="inConvDeacc" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

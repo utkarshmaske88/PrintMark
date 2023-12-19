@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="ErrorHandCOntent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gAx_Slave.In.ErrorReset" attribute="value" />
+<Target xsi:type="brease" contentRefId="ErrorHandCOntent" widgetRefId="ToggleButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gAx_Slave.In.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="ErrorHandCOntent" widgetRefId="ToggleButton2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gAx_Slave.In.Home" attribute="value" />
+<Target xsi:type="brease" contentRefId="ErrorHandCOntent" widgetRefId="ToggleButton3" attribute="value" />
+</Binding>
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gAx_Master.In.Home" attribute="value" />
+<Target xsi:type="brease" contentRefId="ErrorHandCOntent" widgetRefId="ToggleButton6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gAx_Master.In.Enable" attribute="value" />
+<Target xsi:type="brease" contentRefId="ErrorHandCOntent" widgetRefId="ToggleButton5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gAx_Master.In.ErrorReset" attribute="value" />
+<Target xsi:type="brease" contentRefId="ErrorHandCOntent" widgetRefId="ToggleButton4" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

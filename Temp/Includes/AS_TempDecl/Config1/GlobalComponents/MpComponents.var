@@ -1,0 +1,6 @@
+VAR
+	gAlarmXMain : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\maskeu\Desktop\All\projects\ECamp\PrintMarkLabWork\Physical\Config1\X20CP0484\mappServices\Alarm\AlarmConf.mpalarmxcore" #2"1" #3"1"*)
+	gAxisMaster : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\maskeu\Desktop\All\projects\ECamp\PrintMarkLabWork\Physical\Config1\X20CP0484\Motion\MasterAxis.mpaxisbasic" #2"1" #3"1"*)
+	gAxisSlave : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\maskeu\Desktop\All\projects\ECamp\PrintMarkLabWork\Physical\Config1\X20CP0484\Motion\SlaveAxis.mpaxisbasic" #2"1" #3"1"*)
+	gDataRecorder : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\maskeu\Desktop\All\projects\ECamp\PrintMarkLabWork\Physical\Config1\X20CP0484\mappServices\DataRecorder\DataRConf.mpdatarecorder" #2"1" #3"1"*)
+END_VAR
